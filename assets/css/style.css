@@ -626,6 +626,10 @@ section {
     }
     .services-flex-div{
         flex-direction: column;
+        /*padding-top: 0!important; ;*/
+    }
+    .carousel-div{
+        padding-bottom: 0!important;
     }
     .services-div-button{
         width: auto !important;
