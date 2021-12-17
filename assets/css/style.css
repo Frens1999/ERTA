@@ -348,8 +348,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
 #hero .container {
     padding-top: 72px;
 }
@@ -488,25 +486,28 @@ h1, h2, h3, h4, h5, h6 {
     justify-items: center;
 }
 
-.paragraphs-color{
+.paragraphs-color {
     color: #c0d3dd !important;
 }
 
-.custom-service-button{
+.custom-service-button {
     color: #fff;
     background: #449DCD;
     font-weight: 600;
     padding: 5px 20px;
-    box-shadow: -2px 2px #0a2144;}
-.custom-service-button:hover{
-    background: #fff;
-    color  : #083b55;
+    box-shadow: -2px 2px #0a2144;
 }
 
-.custom-links{
+.custom-service-button:hover {
+    background: #fff;
+    color: #083b55;
+}
+
+.custom-links {
     text-decoration: none;
     color: #fff;
 }
+
 .section-1 {
     width: 100%;
     /* height: 50vh; */
@@ -541,6 +542,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
     color: #fff;
 }
+
 .service-text h3 {
     font-family: "Space Grotesk", sans-serif;
 
@@ -550,18 +552,33 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
  --------------------------------------------------------------*/
 
-section {
-    padding: 60px 0;
+#testimonials {
+    padding: 100px 0 0 0;
     overflow: hidden;
+    margin-top: 10rem;
 }
 
 .section-bg {
-    background-color: #f3f5fa;
+    background-color: #055079;
 }
 
 .section-title {
-    text-align: center;
+    text-align: left;
+    color: white;
     padding-bottom: 30px;
+}
+
+.white-testimonials {
+    background: white;
+    width: 100% !important;
+    height: 20rem;
+    margin-top: -16rem;
+}
+
+.blogparagraph {
+    font-weight: 600;
+    color: white !important;
+    font-size: 1.7rem;
 }
 
 .section-title h2 {
@@ -602,39 +619,55 @@ section {
 
 /*CELLPHONE TABLET LAPTOP SECTION*/
 
-.iphone-photo{
-    width: 30%;position:absolute; margin-top: -10rem;
+.iphone-photo {
+    width: 30%;
+    position: absolute;
+    margin-top: -10rem;
 }
-.laptop-photo{
-    width: 50%;position: absolute;margin-top: -15rem;left: 20%;
+
+.laptop-photo {
+    width: 50%;
+    position: absolute;
+    margin-top: -15rem;
+    left: 20%;
 }
-.ipad-photo{
-    width: 24%;position:absolute; margin-top: -13rem;left: 67%;
+
+.ipad-photo {
+    width: 24%;
+    position: absolute;
+    margin-top: -13rem;
+    left: 67%;
 }
-@media screen and (max-width: 370px)  {
-    .laptop-photo{
+
+@media screen and (max-width: 370px) {
+    .laptop-photo {
         width: 50%;
         position: absolute;
         margin-top: -12rem;
         left: 20%;
     }
-    .ipad-photo{
+
+    .ipad-photo {
         width: 24%;
-        position:absolute;
+        position: absolute;
         margin-top: -11.5rem;
         left: 67%;
     }
-    .services-flex-div{
+
+    .services-flex-div {
         flex-direction: column;
         /*padding-top: 0!important; ;*/
     }
-    .carousel-div{
-        padding-bottom: 0!important;
+
+    .carousel-div {
+        padding-bottom: 0 !important;
     }
-    .services-div-button{
+
+    .services-div-button {
         width: auto !important;
     }
-    .services-div-firstChild{
+
+    .services-div-firstChild {
         width: auto !important;
         padding: 10px;
         text-align: center;
@@ -1363,9 +1396,169 @@ section {
         max-width: 100%;
         margin: 0 auto 30px auto;
     }
+
+    .laptop-photo {
+        width: 50%;
+        position: absolute;
+        margin-top: -12rem;
+        left: 20%;
+    }
+
+    .ipad-photo {
+        width: 24%;
+        position: absolute;
+        margin-top: -11.5rem;
+        left: 67%;
+    }
+
+    .services-flex-div {
+        flex-direction: column;
+        /*padding-top: 0!important; ;*/
+    }
+
+    .carousel-div {
+        padding-bottom: 0 !important;
+    }
+
+    .services-div-button {
+        width: auto !important;
+    }
+
+    .services-div-firstChild {
+        width: auto !important;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+    overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+    border-radius: 6px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid #fff;
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #e4e6ea;
+    font-size: 26px;
+}
+
+.testimonial-item ::after {
+    border-radius: 5px;
+
+}
+
+.blog-images {
+    border-radius: 20px 20px 0 0 !important;
+    width: 100%;
+    height: 200px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.testimonials .testimonial-item .blog-card {
+    /*font-style: italic;*/
+    margin: 0 15px 0 15px;
+    /*padding: 20px 20px 60px 20px;*/
+    background: #002D43;
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.blog-content {
+    padding: 0.5rem;
+    height: 200px;
+}
+
+.blog-content p {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    padding: 0.5rem;
+}
+
+.blog-content h5 {
+    color: white;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: -0.3rem;
+}
+
+.blog-content span {
+    color: #c0beb9;
+    font-size: 10px;
+    font-style: italic;
+    padding-left: 0.5rem;
+}
+
+.testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #37517e;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #37517e;
+}
+
+@media screen and (max-width:400px) {
+    #testimonials{
+        margin-top: -3rem;
+    }
+
 }
 
 /*--------------------------------------------------------------
+
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
