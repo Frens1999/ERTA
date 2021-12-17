@@ -26,7 +26,7 @@ body {
     font-weight: 800;
 }
 
-.subtext{
+.subtext {
     font-weight: 300;
 }
 
@@ -188,7 +188,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
     position: relative;
 }
-.navbar li a h1{
+
+.navbar li a h1 {
     font-weight: 800;
 }
 
@@ -358,6 +359,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 
 }
+
 #sub-hero {
     height: 35vh;
     margin-top: 15vh;
@@ -365,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #002f47;
 }
 
-.bigtext-inside{
+.bigtext-inside {
     font-weight: 800;
     font-size: 1.8rem;
 }
@@ -446,6 +448,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 100vh;
         text-align: center;
     }
+
     #sub-hero {
         height: 30vh;
         text-align: center;
@@ -894,6 +897,117 @@ h1, h2, h3, h4, h5, h6 {
         min-height: 200px;
     }
 }
+
+
+/*     PRICINGGGGGGGGGGGGGGGGGGGG     */
+.base-pricing {
+    /* background-color: #00344f;
+    background-image: linear-gradient(160deg, #00344f 39%, #0c786f 88%); */
+    background-color: #fff;
+    /*background-image: linear-gradient(160deg, #00344f 42%, #1b89c1 99%);*/
+
+    color: #00344f;
+}
+
+.span-prices {
+    color: #f6b200;
+    margin-bottom: 10px;
+}
+
+.pricing {
+    box-shadow: -3px 11px 32px rgb(0 0 0/ 8%);
+    border-radius: 5px;
+    background: #00344f;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+}
+
+.pricing:hover {
+    transition: all 0.3s ease;
+    /*box-shadow: -3px 11px 32px rgb(211, 211, 211);*/
+    transform: translateY(-7px);
+    /* background: rgb(233, 233, 233); */
+}
+
+.pricing {
+    color: #fff;
+}
+
+.website-pricing {
+    width: 100%;
+    /*color: #fff;*/
+    background: #00344F;
+    margin: 0 auto;
+}
+
+.web {
+    box-shadow: -3px 11px 32px rgb(0 0 0/ 8%);
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+}
+
+.web:hover {
+    transition: all 0.3s ease;
+    box-shadow: -3px 11px 32px rgb(0 0 0/ 8%);
+    transform: translateY(-7px);
+    /* background: rgb(233, 233, 233); */
+}
+
+#pricing-div {
+    width: 100%;
+}
+
+#pricing {
+
+}
+
+.base-pricing {
+    /*padding-top: 10rem;*/
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.blue-button {
+    background: #00344f;
+    color: #fff;
+}
+
+.white-button {
+    background: #fff;
+    color: #37517e;
+}
+
+@media screen and (max-width: 500px) {
+    .web, .pricing {
+        margin: 13px !important;
+    }
+
+    .header-top {
+        position: absolute;
+        top: 0;
+        /* left: 0; */
+        right: 0;
+    }
+    .navbar{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Skills
@@ -1585,8 +1699,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #37517e;
 }
 
-@media screen and (max-width:400px) {
-    #testimonials{
+@media screen and (max-width: 400px) {
+    #testimonials {
         margin-top: -3rem;
     }
 
@@ -1928,7 +2042,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #444444;
 }
 
-.replace-back{
+.replace-back {
     background: #00344f !important;
 }
 
