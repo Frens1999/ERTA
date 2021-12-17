@@ -17,6 +17,19 @@ body {
     color: #083b55 !important;
 }
 
+.secondary-color {
+    color: #ffffff !important;
+}
+
+.bigtext {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.subtext{
+    font-weight: 300;
+}
+
 a {
     color: #47b2e4;
     text-decoration: none;
@@ -160,6 +173,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.navbar-center {
+    text-align: center;
+}
+
 .navbar ul {
     margin: 0;
     padding: 0;
@@ -170,6 +187,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar li {
     position: relative;
+}
+.navbar li a h1{
+    font-weight: 800;
 }
 
 .navbar a, .navbar a:focus {
@@ -338,6 +358,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 
 }
+#sub-hero {
+    height: 35vh;
+    margin-top: 15vh;
+    width: 100%;
+    background-color: #002f47;
+}
+
+.bigtext-inside{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
 
 .main-div-photo {
     position: absolute;
@@ -413,6 +444,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
     #hero {
         height: 100vh;
+        text-align: center;
+    }
+    #sub-hero {
+        height: 30vh;
         text-align: center;
     }
 
@@ -1891,6 +1926,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 15px;
     color: #444444;
+}
+
+.replace-back{
+    background: #00344f !important;
 }
 
 #footer .footer-newsletter h4 {
