@@ -9,7 +9,9 @@
 
   if (window.innerWidth < 400) {
     const img = document.getElementById("main-photo");
-    img.src = "assets/img/111(copy) (Phone).png";
+    if (img) {
+      img.src = "assets/img/111(copy) (Phone).png";
+    }
   }
 
   /**
