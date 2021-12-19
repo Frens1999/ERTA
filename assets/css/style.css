@@ -22,7 +22,7 @@ body {
 }
 
 .bigtext {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 
@@ -387,9 +387,24 @@ h6 {
   background-color: #002f47;
 }
 
+#sub-hero-with-links {
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 4rem;
+  background-color: #002f47;
+}
+
+.background-blue {
+  background-color: #002f47;
+  color: #fff;
+}
+
+.blue-text {
+  color: #002f47;
+}
 .bigtext-inside {
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .main-div-photo {
