@@ -477,6 +477,20 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.custom-button {
+  border-radius: 10px !important;
+  padding: 5px;
+  border: none;
+}
+
+/* Blog 1 */
+
+.main-blog-content {
+  background: url("/assets/img/blog/blog-1.jpg");
+  height: 100vh;
+  margin-top: 13vh;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -1695,7 +1709,7 @@ h6 {
 
 .blog-content {
   padding: 0.5rem;
-  height: 200px;
+  height: 220px;
 }
 
 .blog-content p {
