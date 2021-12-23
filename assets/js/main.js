@@ -10,7 +10,7 @@
   if (window.innerWidth < 400) {
     const img = document.getElementById("main-photo");
     if (img) {
-      img.src = "assets/img/111(copy) (Phone).png";
+      img.src = "assets/img/phone.png";
     }
   }
 
