@@ -509,6 +509,27 @@ h6 {
   align-items: center;
 }
 
+.btn-grad {
+  margin-top: 4rem;
+  background: #78b8db;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+
+.btn-grad:hover {
+  background-color: #3d9bce;
+  color: #fff;
+}
+
+.contact-button {
+  background: #78b8db;
+  color: white;
+}
+.contact-button:hover {
+  background-color: #3d9bce;
+  color: #fff;
+}
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -604,6 +625,9 @@ h6 {
 
 .custom-service-button:hover {
   background: #fff;
+  color: #083b55;
+}
+.custom-service-button a:hover {
   color: #083b55;
 }
 
