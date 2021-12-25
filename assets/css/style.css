@@ -485,10 +485,28 @@ h6 {
 
 /* Blog 1 */
 
-.main-blog-content {
+.main-blog1-content {
   background: url("/assets/img/blog/blog-1.jpg");
   height: 75vh;
   margin-top: 13vh;
+}
+
+.main-web-design-content {
+  background: url("/assets/img/pexels-junior-teixeira-2047905\ \(Large\).png");
+  height: 100vh;
+  margin-top: 13vh;
+}
+
+.custom-web-design-divs {
+  border-radius: 10px;
+  background-color: #055079;
+  background-image: linear-gradient(160deg, #055079 0%, #00344f 81%);
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
