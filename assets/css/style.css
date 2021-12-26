@@ -530,6 +530,20 @@ h6 {
   background-color: #3d9bce;
   color: #fff;
 }
+
+.custom-border-bottom {
+  border-bottom: 4px solid #083b55;
+  margin-bottom: 2rem;
+}
+
+.custom-media-strategy-div {
+  border-radius: 10px;
+  background: #fff;
+  color: #083b55;
+  box-shadow: 0px -8px 0px #449dcd;
+  padding: 3rem 1.5rem !important;
+  margin: 2rem auto !important;
+}
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
