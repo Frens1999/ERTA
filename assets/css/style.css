@@ -549,6 +549,14 @@ h6 {
   padding: 3rem 1.5rem !important;
   margin: 2rem auto !important;
 }
+
+.custom-content-div {
+  border-radius: 15px;
+  background-color: #fff;
+  color: #083b55 !important;
+  margin-top: 2rem;
+  align-items: center;
+}
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
