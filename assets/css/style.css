@@ -557,6 +557,43 @@ h6 {
   margin-top: 2rem;
   align-items: center;
 }
+
+.reviews {
+  margin-bottom: 2rem;
+}
+
+.review-div {
+  display: flex;
+  /* margin: auto; */
+}
+
+.review-image img {
+  border-radius: 85px;
+  z-index: 2;
+}
+.review-image {
+  margin-right: -8.5rem;
+  z-index: 2;
+}
+
+.review-text {
+  background-color: #083b55;
+  display: flex;
+  color: #fff;
+  border-radius: 85px;
+  text-align: center;
+  margin-right: -13px;
+  padding: 20px;
+}
+
+@media (max-width: 1290px) {
+  .review-div {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
