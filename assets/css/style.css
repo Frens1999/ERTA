@@ -833,6 +833,13 @@ h6 {
   left: 67%;
 }
 
+.review-div:first-child {
+  border: 1px solid #333;
+  border-radius: 85px;
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+}
+
 @media screen and (max-width: 390px) {
   .laptop-photo {
     width: 50%;
@@ -872,6 +879,19 @@ h6 {
 
   #pricing {
     margin-top: 10vh !important;
+  }
+
+  .review-image {
+    display: none;
+  }
+  #empty-div {
+    display: none;
+  }
+  .review-div {
+    border: none !important;
+  }
+  .review-div:first-child {
+    margin-left: 1rem !important;
   }
 }
 
