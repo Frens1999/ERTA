@@ -12,6 +12,11 @@
     if (img) {
       img.src = "assets/img/phone.png";
     }
+
+    const img2 = document.getElementById("screenshots");
+    if (img2) {
+      img2.src = "assets/img/phone2.png";
+    }
   }
 
   /**
