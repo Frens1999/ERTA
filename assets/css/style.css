@@ -490,10 +490,10 @@ h6 {
 
 /* Blog 1 */
 
-.main-blog1-content {
-  background: url("/assets/img/blog/blog-1.jpg");
+.main-blog-content {
   height: 75vh;
   margin-top: 13vh;
+  background-size: cover !important
 }
 
 .main-web-design-content {
@@ -2457,4 +2457,11 @@ h6 {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+.blog-photo{
+  background-size: cover;
+  height: 300px;
+  background-position: center
 }
