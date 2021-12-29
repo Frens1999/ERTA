@@ -7,7 +7,7 @@
 (function () {
   "use strict";
 
-  if (window.innerWidth < 400) {
+  if (window.innerWidth < 440) {
     const img = document.getElementById("main-photo");
     if (img) {
       img.src = "assets/img/phone.png";
