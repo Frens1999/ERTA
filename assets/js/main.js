@@ -22,8 +22,8 @@
   const contactButton = document.getElementById("contact-submit");
   console.log(contactButton);
   if (contactButton) {
-    contactButton.addEventListener("click", () => {
-      console.log("hi");
+    contactButton.addEventListener("click", (event) => {
+      event.preventDefault();
       window.location.href = "/thankyou.html";
     });
   }
