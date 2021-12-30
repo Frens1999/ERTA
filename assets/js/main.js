@@ -19,6 +19,15 @@
     }
   }
 
+  const contactButton = document.getElementById("contact-submit");
+  console.log(contactButton);
+  if (contactButton) {
+    contactButton.addEventListener("click", () => {
+      console.log("hi");
+      window.location.href = "/thankyou.html";
+    });
+  }
+
   /**
    * Easy selector helper function
    */
