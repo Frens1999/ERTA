@@ -210,6 +210,9 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+.navbar a h3 {
+  font-size: 1rem;
+}
 
 .navbar a i,
 .navbar a:focus i {
