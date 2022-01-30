@@ -10,9 +10,14 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #444444;
+  position: relative
 }
 
 .pricing div{
@@ -278,7 +283,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #fff !important;
 }
 
 @media (max-width: 991px) {
@@ -327,13 +332,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #ffffff73;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #ffffff;
 }
 
 .navbar-mobile .getstarted,
@@ -425,11 +430,12 @@ h6 {
 
 .main-div-photo {
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
-  height: 100vh;
+  height: auto;
   width: auto;
-  max-width: fit-content;
+  max-width: -webkit-fill-available;
+  z-index: -2;
 }
 
 #hero .container {
@@ -508,11 +514,20 @@ h6 {
   background-size: cover !important;
 }
 
-.main-web-design-content {
-  background: url("/assets/img/pexels-junior-teixeira-2047905\ \(Large\).png");
+.main-web-services {
   height: 100vh;
   margin-top: 13vh;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .main-web-services {
+    height: 20vh;
+  }  
+}
+
 
 .custom-web-design-divs {
   border-radius: 10px;
