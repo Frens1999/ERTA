@@ -428,7 +428,8 @@ h6 {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 100%;
+  width: auto;
+  max-width: fit-content;
 }
 
 #hero .container {
@@ -2494,12 +2495,12 @@ h6 {
   z-index: 999999 !important;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .social-media-fun{
     bottom: 17vh;
     right: 20vh;  
   }
-}
+} */
 
 .social-media-box {
   position: absolute;
